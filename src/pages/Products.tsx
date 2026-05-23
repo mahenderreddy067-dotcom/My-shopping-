@@ -3,7 +3,7 @@ import { useParams, useSearchParams } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { Product, Category } from '../types/database';
 import ProductCard from '../components/ProductCard';
-import { Filter } from 'lucide-react';
+import { ListFilter as Filter } from 'lucide-react';
 
 export default function Products() {
   const { slug } = useParams();
